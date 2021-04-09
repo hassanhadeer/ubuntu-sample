@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "You must enter the (item name, cost, selling price, number in stock)."
+echo -e "what is the item name? --> \c"
+read NAME
+echo -e "what is the item cost? --> \c"
+read COST
+echo -e "what is the item selling price? --> \c"
+read PRICE
+echo -e "what is the item number in stock? --> \c"
+read STOCK
+
+echo "added item details:"
+echo -e "itemName: $NAME \t cost: $COST \t sellingPrice: $PRICE \t numberInStock: $STOCK"
